@@ -7,9 +7,13 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "scripts": {
+      "server": "live-server ./ --port=8081"
+    }
   },
   "dependencies": {
+    "element-ui": "^2.13.0",
     "vue": "^2.5.2",
     "vue-router": "^3.1.6"
   },
