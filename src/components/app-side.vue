@@ -8,14 +8,19 @@
           <template slot="title">Vue基础</template>
           <el-menu-item index="/vuebase/hello">hello</el-menu-item>
           <el-menu-item index="/vuebase/on">on</el-menu-item>
+          <el-menu-item index="/vuebase/bind">bind</el-menu-item>
+          <el-menu-item index="/vuebase/model">model</el-menu-item>
         </el-submenu>
         <el-submenu  index="1-2">
           <template slot="title">面试题</template>
-          <el-menu-item index="1-2-1">1</el-menu-item>
+          <el-menu-item index="1-2-1">Jave</el-menu-item>
+          <el-menu-item index="1-2-1">DB</el-menu-item>
+          <el-menu-item index="1-2-1">Tools</el-menu-item>
         </el-submenu>
         <el-submenu  index="1-3">
           <template slot="title">EL</template>
-          <el-menu-item index="1-3-1">1</el-menu-item>
+          <el-menu-item index="1-3-1">Nice</el-menu-item>
+          <el-menu-item index="1-3-1">Nice</el-menu-item>
         </el-submenu>
       </el-menu-item-group>
     </el-submenu>

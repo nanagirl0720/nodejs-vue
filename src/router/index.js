@@ -16,8 +16,8 @@ export default new Router({
         {path: '/',component: Home},
         {path: '/vuebase/hello',component: page('vuebase/'+'Hello')},
         {path: '/vuebase/on',component: page('vuebase/'+'On')},
-        {path: '/vuebase/hello',component: page('vuebase/'+'Hello')},
-        {path: '/vuebase/hello',component: page('vuebase/'+'Hello')},
+        {path: '/vuebase/bind',component: page('vuebase/'+'Bind')},
+        {path: '/vuebase/model',component: page('vuebase/'+'Model')},
         {path: '/vuebase/hello',component: page('vuebase/'+'Hello')},
         {path: '/vuebase/hello',component: page('vuebase/'+'Hello')},
       ]
